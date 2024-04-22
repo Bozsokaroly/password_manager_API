@@ -1,0 +1,203 @@
+# Hungarian translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-17 13:40+0200\n"
+"PO-Revision-Date: 2024-04-17 13:43+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: hu\n"
+"Language-Team: hu <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: app.py:45 app.py:82
+msgid "Please provide user details"
+msgstr "Kérem adjon meg felhasználói adatokat"
+
+#: app.py:47 app.py:84
+msgid "Bad request"
+msgstr "Hibás kérés"
+
+#: app.py:61
+msgid "User already exists"
+msgstr "A felhasználó már létezik"
+
+#: app.py:62 app.py:144 app.py:284
+msgid "Conflict"
+msgstr "Ütközés"
+
+#: app.py:66
+msgid "Successfully created new user"
+msgstr "Új felhasználó sikeresen létrehozva"
+
+#: app.py:71 app.py:108 app.py:174
+msgid "Something went wrong"
+msgstr "Valami hiba történt"
+
+#: app.py:89 app.py:131 app.py:274
+msgid "Invalid data"
+msgstr "Érvénytelen adatok"
+
+#: app.py:103
+msgid "Successfully fetched auth token"
+msgstr "Hitelesítő token sikeresen lekérve"
+
+#: app.py:112
+msgid "Error fetching auth token!, invalid email or password"
+msgstr "Hiba a hitelesítő token lekérésekor! Érvénytelen e-mail vagy jelszó"
+
+#: app.py:114 auth_middleware.py:21 auth_middleware.py:31
+msgid "Unauthorized"
+msgstr "Jogosulatlan"
+
+#: app.py:118
+msgid "Something went wrong!"
+msgstr "Valami hiba történt!"
+
+#: app.py:133
+msgid "Bad Request"
+msgstr "Hibás kérés"
+
+#: app.py:142 app.py:152 app.py:282 app.py:292
+msgid "failed to create a new data"
+msgstr "új adat létrehozása sikertelen"
+
+#: app.py:147 app.py:287
+msgid "successfully created a new data"
+msgstr "új adat sikeresen létrehozva"
+
+#: app.py:164
+msgid "data not found"
+msgstr "adat nem található"
+
+#: app.py:166
+msgid "Not Found"
+msgstr "Nem található"
+
+#: app.py:169 app.py:304
+msgid "successfully retrieved a data"
+msgstr "adat sikeresen lekérve"
+
+#: app.py:191
+msgid "failed to retrieve all datas"
+msgstr "az összes adat lekérése sikertelen"
+
+#: app.py:203
+msgid "successfully retrieved all data"
+msgstr "minden adat sikeresen lekérve"
+
+#: app.py:208
+msgid "failed to retrieve all data"
+msgstr "az adatok lekérése sikertelen"
+
+#: app.py:221 app.py:249
+msgid "data not found for user"
+msgstr "a felhasználóhoz nem található adat"
+
+#: app.py:223 app.py:251
+msgid "Not found"
+msgstr "Nem található"
+
+#: app.py:230
+msgid "successfully updated a data"
+msgstr "adat sikeresen frissítve"
+
+#: app.py:235
+msgid "failed to update a data"
+msgstr "az adat frissítése sikertelen"
+
+#: app.py:256
+msgid "successfully deleted a data"
+msgstr "adat sikeresen törölve"
+
+#: app.py:261
+msgid "failed to delete a data"
+msgstr "az adat törlése sikertelen"
+
+#: app.py:309
+msgid "failed to retrieve a data"
+msgstr "adat lekérése sikertelen"
+
+#: app.py:324
+msgid "The text record can't be null"
+msgstr "A szöveges bejegyzés nem lehet üres"
+
+#: app.py:348
+msgid "Data not found"
+msgstr "Adat nem található"
+
+#: app.py:349 app.py:354
+msgid "error"
+msgstr "hiba"
+
+#: app.py:353
+msgid "Data expired"
+msgstr "Az adat lejárt"
+
+#: app.py:361
+msgid " shared the following with you"
+msgstr " megosztotta az alábbiakat Önnel"
+
+#: app.py:365
+msgid "Password manager share function"
+msgstr "Jelszókezelő megosztási funkció"
+
+#: app.py:366
+msgid "copy"
+msgstr "másolás"
+
+#: app.py:367
+msgid "data copied to clipboard."
+msgstr "adat vágólapra másolva."
+
+#: app.py:379
+msgid "Forbidden"
+msgstr "Tilos"
+
+#: app.py:387
+msgid "Endpoint Not Found"
+msgstr "Végpont nem található"
+
+#: auth_middleware.py:19
+msgid "A token is required for access"
+msgstr "Hozzáféréshez token szükséges"
+
+#: auth_middleware.py:29
+msgid "Token is not valid"
+msgstr "A token érvénytelen"
+
+#: auth_middleware.py:37
+msgid "An error occurred during token validation"
+msgstr "Hiba történt a token ellenőrzése során"
+
+#: validate.py:30
+msgid "Invalid email format"
+msgstr "Érvénytelen e-mail formátum"
+
+#: validate.py:33
+msgid "Password is invalid."
+msgstr "Érvénytelen jelszó."
+
+#: validate.py:36
+msgid "Name must be between 2 and 30 words"
+msgstr "A név 2 és 30 szó közötti kell, hogy legyen"
+
+#: validate.py:43
+msgid "Email and Password is required"
+msgstr "E-mail és jelszó megadása kötelező"
+
+#: validate.py:46
+msgid "Email format is incorrect"
+msgstr "Az e-mail formátuma helytelen"
+
+#: validate.py:49
+msgid "Password does not meet the required standards"
+msgstr "A jelszó nem felel meg a szükséges követelményeknek"
